@@ -7,14 +7,14 @@
 }
 
 body {
-  background-color: #721d1d;
-  color: #0aefff;
+  background-color: #abc;
+  color: #1f0083;
 }
 
 input {
-  background-color: rgb(0, 187, 72);
-  border: 3px solid aquamarine;
-  color: rgb(0, 92, 173);
+  background-color: rgb(200, 255, 221);
+  border: 3px solid rgb(0, 26, 49);
+  color: rgb(0, 26, 49);
   font-size: 20px;
   padding: 10px;
 }
@@ -22,7 +22,7 @@ input {
 h1 {
   margin: 15px;
   font-size: 35px;
-  color: #ff9e00;
+  color: #4a4499;
 }
 
 button {
@@ -49,15 +49,16 @@ p {
 }
 
 .bordered-table {
-  border: 1px solid black;
   border-collapse: collapse;
   margin-left: 30px;
+  background-color: #721d1d;
+  color: rgb(113, 234, 255);
 }
 
 .bordered-table th,
 .bordered-table td {
   padding: 5px;
-  border: 1px solid black;
+  border: 2px solid seagreen;
 }
 
 #input {
@@ -77,4 +78,8 @@ p {
   flex: 1;
   text-align: right;
   padding-right: 25px;
+}
+
+#generate {
+  cursor: pointer;
 }
